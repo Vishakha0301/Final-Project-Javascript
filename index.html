@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Shoplane App</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+ crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="topbar">
+            <div id="left-menu">
+                <div id="logo">
+                    <a href="#"><span>shop</span>lane</a>
+                </div>
+                <a href="#clothing-section">Clothing</a>
+                <a href="#accessory-section">Accessories</a>
+            </div>
+            <div id="search">
+                <i class="fas fa-search"></i>
+                <input class="search-bar" type="text" placeholder="Search for Clothing and Accessories"> 
+            </div>
+            <div id="right-side">
+                <div id="cart-wrapper">
+                    <p id="cart-count">0</p>
+                    <a href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <img src="https://test-hosting-8f9bf.web.app/assets/avatar.jpg">
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>    
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./96OnkX7.png" class="d-block"  alt="Slider 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./KtGxwnN.png" class="d-block"  alt="Slider 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./p0wdadG.png" class="d-block"  alt="Slider 3">
+              </div>
+              <div class="carousel-item">
+                <img src="./sfjg9R8.png" class="d-block"  alt="Slider 4">
+              </div>
+            </div>
+            
+        </div>
+        <section id="clothing-section" class="homepage">
+            <h3 class="section-heading" >Clothing for Men and Women</h3>
+            <div id="clothing-card" class="product-grid"></div>
+        </section>
+        <section id="accessory-section" class="homepage">
+            <h3 class="section-heading">Accessories for Men and Women</h3>
+            <div id="accessory-card" class="product-grid"></div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="#clothing-section" class="footer-link">Men Clothing</a>
+            <a href="#clothing-section" class="footer-link">Women Clothing</a>
+            <a href="#accessory-section" class="footer-link">Men Accessories</a>
+            <a href="#accessory-section" class="footer-link">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="./index.html" class="footer-link">Home</a>
+            <a href="./index.html" class="footer-link">About</a>
+            <a href="./index.html" class="footer-link">Contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="./index.html" class="footer-link">Zara</a>
+            <a href="./index.html" class="footer-link">Pantaloons</a>
+            <a href="./index.html" class="footer-link">Levis</a>
+            <a href="./index.html" class="footer-link">UCB</a>
+            <a href="./index.html" class="footer-link">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">Address</p>
+            <p href="./" class="footer-link">Building 101</p>
+            <p href="./" class="footer-link">Central Avenue</p>
+            <p href="./" class="footer-link">LA - 902722</p>
+            <p href="./" class="footer-link">United States</p>
+        </div>
+
+    </footer>
+    
+       <script src="./index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>  
+
+</html>
